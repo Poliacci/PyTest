@@ -5,7 +5,7 @@ def add(a, b):# function, that must be able to both additions and subtractions(l
 # Здесь определены тестовые классы и методы тестирования
 
 class MyTestCase(unittest.TestCase):
-    def test_addition(self): # test of the addition(+)
+    def test_addition(self): # test of the addition(+) 
         self.assertEqual(add(2, 2), 4)
 
     def test_subtraction(self): # test of the subtraction(-)
